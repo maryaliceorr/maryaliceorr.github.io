@@ -1,30 +1,67 @@
+
+/* main____________________________________________*/
+
 * {
     background-color: #256b72;
     color: whitesmoke;
     font-family: 'Alegreya Sans SC', sans-serif;
+    margin: 0;
+    padding: 0;
 }
+
+/* body ____________________________________________*/
+body {
+ position: relative;
+}
+
+p {
+    padding: 10px 60px;
+
+}
+
+
+/* header tags ____________________________________________*/
 
 h1 {
     text-align: center;
     font-size: 40px;
     font-family: 'Rock Salt', cursive;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
 
 h2 {
     font-family: 'Rock Salt', cursive;
     background-color: #16272b;
+    width: 100%;
+    padding-left: 60px;
+    
 }
 
-nav ul {
+h3 {
+    padding-left: 60px;
+}
+
+h4 {
+    padding-left: 60px;
+}
+
+/* nav bar ____________________________________________*/
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
     list-style-type: none;
     margin: 0;
-    padding: 0;
     overflow: hidden;
-    background-color: rgb(85, 81, 81);
+    background-color: whitesmoke;
+    
 }
 
 nav li {
     float: left;
+    text-decoration: none;
 }
 
 nav li a {
@@ -32,8 +69,58 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    background-color: whitesmoke;
+    color: #256b72;
 }
 
-li a:hover {
+nav li a:hover{
     background-color: lightslategrey;
+    color: whitesmoke;
+    text-decoration: none;
 }
+
+
+
+/* footer ____________________________________________*/
+
+.bottom-footer { 
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    display: block;
+    height: 100px;
+    background-color: whitesmoke;
+    color: #16272b;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.bottom-footer li {
+    
+    padding-left: 60px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    background-color: whitesmoke;
+    color: #16272b;
+
+}
+
+
+/* history page ____________________________________________*/
+
+.history-list li {
+    padding-left: 60px;
+    list-style-type: square;
+}
+
+/* projects page ____________________________________________*/
+
+img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    padding: 30px 60px;
+}
+
+/* projects page ____________________________________________*/
+
