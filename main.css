@@ -7,17 +7,26 @@
     font-family: 'Alegreya Sans SC', sans-serif;
     margin: 0;
     padding: 0;
+
 }
 
+
 /* body ____________________________________________*/
-body {
- position: relative;
-}
+
 
 p {
     padding: 10px 60px;
+    margin-bottom: 10px;
 
 }
+
+.main-container {
+    display: block;
+    height: 100%;
+    padding-bottom: 50px;
+    margin-bottom: 200px;
+}
+
 
 
 /* header tags ____________________________________________*/
@@ -40,6 +49,7 @@ h2 {
 
 h3 {
     padding-left: 60px;
+    padding-bottom: 10px;
 }
 
 h4 {
@@ -48,23 +58,23 @@ h4 {
 
 /* nav bar ____________________________________________*/
 
-nav {
+.bar {
     position: fixed;
     width: 100%;
     top: 0;
-    list-style-type: none;
     margin: 0;
     overflow: hidden;
     background-color: whitesmoke;
     
 }
 
-nav li {
+.bar li {
     float: left;
     text-decoration: none;
+    list-style-type: none;
 }
 
-nav li a {
+.bar li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
@@ -73,7 +83,7 @@ nav li a {
     color: #256b72;
 }
 
-nav li a:hover{
+.bar li a:hover{
     background-color: lightslategrey;
     color: whitesmoke;
     text-decoration: none;
@@ -86,13 +96,12 @@ nav li a:hover{
 .bottom-footer { 
     left: 0px;
     bottom: 0px;
-    position: absolute;
-    display: block;
     height: 100px;
+    position: fixed;
     background-color: whitesmoke;
     color: #16272b;
     width: 100%;
-    margin-top: 100px;
+
 }
 
 .bottom-footer li {
@@ -108,9 +117,13 @@ nav li a:hover{
 
 /* history page ____________________________________________*/
 
-.history-list li {
+.history li {
     padding-left: 60px;
     list-style-type: square;
+}
+.job {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* projects page ____________________________________________*/
@@ -122,5 +135,31 @@ img {
     padding: 30px 60px;
 }
 
-/* projects page ____________________________________________*/
+.column1 {
+    float: left;
+    width: 50%;
+}
+
+.column2 {
+    float: right;
+    width: 50%;
+}
+
+.row {
+    width: 100%;
+    height: 800px;
+}
+
+
+
+/* contact page ____________________________________________*/
+
+.contact {
+    padding-top: 20px;
+    padding-left: 60px;
+}
+.contact li {
+    padding-top: 10px 60px;
+    text-decoration: none;
+}
 
