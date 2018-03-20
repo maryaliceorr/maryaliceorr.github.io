@@ -45,7 +45,7 @@ var projects = [
     },
 ];
 
-function projectsBuilder(projectArray) {
+function createProjectCards(projectArray) {
     var projectCard = "";
     projectArray.forEach(function(project) {
         projectCard += "<div id='" + project.id+ "'>";
@@ -63,8 +63,7 @@ function writeToDom(stringOutput, outputId) {
     divElement.innerHTML += stringOutput;
 };
 
-projectsBuilder(projects);
+createProjectCards(projects);
 
-console.log(projects);
 
    // projectCard += "<a href='project.githubURL'>" + "</a>";
