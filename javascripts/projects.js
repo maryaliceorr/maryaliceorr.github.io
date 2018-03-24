@@ -66,4 +66,4 @@ function writeToDom(stringOutput, outputId) {
 createProjectCards(projects);
 
 
-   // projectCard += "<a href='project.githubURL'>" + "</a>";
+ 
