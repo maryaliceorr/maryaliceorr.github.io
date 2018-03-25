@@ -48,11 +48,13 @@ var projects = [
 function createProjectCards(projectArray) {
     var projectCard = "";
     projectArray.forEach(function(project) {
-        projectCard += "<div id='" + project.id+ "'>";
-            projectCard += "<h2>" + project.title + "</h2>";
-            projectCard += "<img class='project-image' src='" + project.imageURL +"'>";
-            projectCard += "<p>" + project.description + "</p>";
-            projectCard += "<a href='" + project.githubURL + "'>" + project.id + "</a>";
+        projectCard += "<div class='project-cards'>"
+        projectCard +=      "<div id='" + project.id+ "'>";
+        projectCard +=          "<h2>" + project.title + "</h2>";
+        projectCard +=          "<img class='project-image' src='" + project.imageURL +"'>";
+        projectCard +=          "<p>" + project.description + "</p>";
+        projectCard +=          "<a href='" + project.githubURL + "'>" + project.id + "</a>";
+        projectCard +=      "</div>";
         projectCard += "</div>";
     });
     writeToDom(projectCard, "project-holder");
