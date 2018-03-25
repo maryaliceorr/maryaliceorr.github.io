@@ -16,6 +16,12 @@ var blogs = [
     title: "Blog Week #3",
     date: "03/10/2018",
     post: "<p>" + "So...this week I felt better going into it because I worked on the JS objects homework and got through it for the most part. I got stuck on the first excercise for a bit, but I worked through it and then the other excercises seemed to come a lot faster and easier. However, when we went over some of the functions material and advanced function methods, I felt about as lost as Nemo. Things got a little bit better when we went over project planning, as I do that in my job in a different capacity almost everyday.  I am ready for JS advanced methods to make more sense." + "</p>" + "<p>" + "<strong>" + "JS: " + "</strong>" + "I get confused in the following areas: advanced array methods, function placeholders, and variable names within functions. I think a next step I'm going to try and take is to read over some of the extra JS material as well breakdown functions like algebraic equations.  I get very confused by the variable and placeholder names, epsecially if they are similar to other variable or function names." + "</p>" + "<p>" + "What I would like to do is replace variable names and placeholders with algebra variables like a, b and c or x, y and z.  I would then like to see if I better absorb how functions work." + "</p>" + "<p>" + "<strong>" + "Project Planning:</strong>This part was enjoyable and a nice break from the madness. What I learned from this session is that planning is key. I enjoyed walking through the steps of planning from the bare bones of what the project needs as an MVP, to wireframes, to ticketing. I think this process will really help our group work be more efficient and cohesive." + "</p>"
+    },
+    {
+    id: "blog4",
+    title: "Blog Week #4",
+    date: "03/23/2018",
+    post: "<p>" + "This week felt better overall. After our group project and working on the advanced array method for the project, I feel better about JS functions and JS in general. I still need more practice to get really comfortable, but I at least don't feel lost anymore." + "</p>" + "<p>" + "<strong>" + "ES6: " + "</strong>" + "Using const and let took a little bit of time to grasp, but I feel like the more I use them the easier it will be to use them and know when to. I sort of try to think about when to use them like I do when I'm choosing an id or a class in CSS as far as uniqueness goes." + "</p>" + "<p>" + "<strong>" + "DOM Interaction: " + "</strong>" + "Going over event listeners helped me quite a bit to understand why I could not get text to print to the DOM in the language translator challenge. The function I was trying to use in the language translator was being called before the page loaded which meant any input a user typed in would not print. That was a hugely valuable lesson to me. Also traversing the DOM using parent.node made a lot of sense to me.  It reminds me a lot of cd in the terminal.  I think having a better understanding of git helped a lot for that lesson." + "</p>" + "<p>" + "<strong>" + "Markdown: " + "</srong>" + "Markdown seems easy enough.  It's another CSS type thing where we are supposed to be good at looking up how to do it instead of learning it directly. Again, I think the more we use it, the easier it will be to write README files." + "</p>"
     }
 ];
 
@@ -24,9 +30,9 @@ function createBlogPosts(blogArray) {
     var blogCard = "";
     blogArray.forEach(function(blog) {
         blogCard += "<div id='" + blog.id + "'>";
-            blogCard += "<h2>" + blog.title + "</h2>";
-            blogCard += "<h4>" + blog.date + "</h4>";
-            blogCard += "<p>" + blog.post + "</p>";
+        blogCard +=     "<h2>" + blog.title + "</h2>";
+        blogCard +=     "<h4>" + blog.date + "</h4>";
+        blogCard +=     "<p>" + blog.post + "</p>";
         blogCard += "</div>";
     });
     writeToDom(blogCard, "blogs-holder");
