@@ -4,7 +4,7 @@ const createBlogPosts = (blogArray) => {
     var blogCard = "";
     blogArray.forEach(function(blog) {
         blogCard += `<div id=${blog.id}>`;
-        blogCard +=     `<h2 class=blog-h2">${blog.title}</h2>`;
+        blogCard +=     `<h2 class="blog-h2">${blog.title}</h2>`;
         blogCard +=     `<h4>${blog.date}</h4>`;
         blogCard +=     `<p>${blog.post}</p>`;
         blogCard += `</div>`;
