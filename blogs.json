@@ -35,6 +35,12 @@
         "title": "Blog Week #6",
         "date": "04/08/2018",
         "post": "<p><strong>Overall: </strong>I feel like I’ve had a small turning point this week of understanding event listeners and functions better and how that works with the other working pieces of building these applications.  I worked with Callan on walking through lines of code one at a time and focusing on methods that I can uses on different elements using typeof.  I worked with Lauren on making a more advanced writeToDom function and traversing the DOM. I also worked with Zoe on better understanding event listeners and making multiple XHR requests. Overall, I feel more confident, less lost and finally like this stuff is starting to click bit by bit.</p><p><strong>Boostrap: </strong>I like Bootstrap.  It’s super logical and easy to use.  I only have 2 frustrations with Bootstrap thus far.</p><ol><li>I was just getting to feel really good about flexbox and css rules and now I can’t use flexbox the same way.</li><li>I think where I might run into trouble with Bootstrap in the future is how much you can customize it.</li></ol><p>Otherwise, I am a fan of Bootstrap.</p><p><strong>XHR: </strong>Oye.  Here’s the thing - I get how calling a function (or another XHR call) into an XHR call works in theory.  I understand when we walk through it in class - I’m just not to the level of being comfortable with it yet. I know that will come and that’s the only thing that gives me peace at night with all of the coding things I don’t understand.</p>"
+        },
+        {
+        "id": "blog7",
+        "title": "Blog Week #7",
+        "date": "04/15/2018",
+        "post": "<p><strong>Task Runners: </strong>Grunt is sooooo fun - not.  Truthfully, I think Grunt will end up being very helpful by calling out errors before running an application, but it still can be frustrating for the little things it calls out.  I do understand the purpose of it though and it is a great tool for uniformity and consistency.</p><p><strong>Browserify: </strong>This is taking some time to get used to but, I understand the value in it.  Using modules is strange, but in a way, linking JS files in which each file serves its own purpose sort of helps keep things clean and neat. I look forward to feeling comfortable using it.</p>"
         }
     ]
 }
