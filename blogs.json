@@ -1,5 +1,5 @@
- { 
-    "blogs": [ 
+ {
+    "blogs": [
         {
         "id": "blog1",
         "title": "Blog Week #1",
@@ -28,8 +28,8 @@
         "id": "blog5",
         "title": "Blog Week #5",
         "date": "04/01/2018",
-        "post": "<p><strong>JSON: </strong>This stuff seems easy enough. The main takeaways for me were that you have to put everything (inlcuding keys) in double quotes and that you can't put comments in JSON. Otherwise, this seems pretty straight forward.</p><p><strong>XHR: </strong>I'm not sure how I feel about this yet. It seems to makes sense, but I am not sure I will fully understand it until we get to the back end. I didn't feel lost this week, but I'm not sure if that's because I have accepted the fact that I will not understand everything fully immediately, but I know as we go I will catch on to all of this. Anyway, I like learning these types of things because I understand how important being able to pull data in from somewhere else is for future use. I think I will appreciate XHR much more in time. Also, the part that interested me most was th sync vs. async piece.  I think this will actually help me understand some things from my current job due to the way script tags in ad ops run async or sync and how that affects ad calls. I'm interested to see how this works with the back end in the future.</p>"
-        }, 
+        "post": "<p><strong>JSON: </strong>This stuff seems easy enough. The main takeaways for me were that you have to put everything - inlcuding - keys in double quotes and that you can't put comments in JSON. Otherwise, this seems pretty straight forward.</p><p><strong>XHR: </strong>I'm not sure how I feel about this yet. It seems to makes sense, but I am not sure I will fully understand it until we get to the back end. I didn't feel lost this week, but I'm not sure if that's because I have accepted the fact that I will not understand everything fully immediately, but I know as we go I will catch on to all of this. Anyway, I like learning these types of things because I understand how important being able to pull data in from somewhere else is for future use. I think I will appreciate XHR much more in time. Also, the part that interested me most was th sync vs. async piece.  I think this will actually help me understand some things from my current job due to the way script tags in ad ops run async or sync and how that affects ad calls. I'm interested to see how this works with the back end in the future.</p>"
+        },
         {
         "id": "blog6",
         "title": "Blog Week #6",
@@ -41,6 +41,12 @@
         "title": "Blog Week #7",
         "date": "04/15/2018",
         "post": "<p><strong>Task Runners: </strong>Grunt is sooooo fun - not.  Truthfully, I think Grunt will end up being very helpful by calling out errors before running an application, but it still can be frustrating for the little things it calls out.  I do understand the purpose of it though and it is a great tool for uniformity and consistency.</p><p><strong>Browserify: </strong>This is taking some time to get used to but, I understand the value in it.  Using modules is strange, but in a way, linking JS files in which each file serves its own purpose sort of helps keep things clean and neat. I look forward to feeling comfortable using it.</p>"
+        },
+        {
+        "id": "blog8",
+        "title": "Blog Week #8",
+        "date": "04/20/2018",
+        "post": "<p><strong>Task Runners and Browserify: </strong>This week has been enlightening.  As we coded along in class both Monday and Tuesday, I felt like I understood to some degree what was happening but I also felt overwhelmed by all the files and all the functions being inside of those separate files.  Anyway, given that I knew on Tuesday night that this week was going to be overwhelming, I decided to spend my group night going over our repos from Monday and Tuesday. I think that was the best thing I could have done because I now have a much better understanding of how all of this works and what these functions mean.  Earlier this week, I felt like I knew that I needed certain pieces to make something work, but I didn’t know why I needed them.  Now, I feel like I have a much better understanding of why I need certain things in my code and I’m going to try to make it a goal to focus on going over our weekly repos line by line every time we learn something new. Overall, this was a very big lesson learned for me this week.</p>"
         }
     ]
 }
