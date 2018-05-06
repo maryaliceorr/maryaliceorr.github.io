@@ -47,6 +47,18 @@
         "title": "Blog Week #8",
         "date": "04/20/2018",
         "post": "<p><strong>Task Runners and Browserify: </strong>This week has been enlightening.  As we coded along in class both Monday and Tuesday, I felt like I understood to some degree what was happening but I also felt overwhelmed by all the files and all the functions being inside of those separate files.  Anyway, given that I knew on Tuesday night that this week was going to be overwhelming, I decided to spend my group night going over our repos from Monday and Tuesday. I think that was the best thing I could have done because I now have a much better understanding of how all of this works and what these functions mean.  Earlier this week, I felt like I knew that I needed certain pieces to make something work, but I didn’t know why I needed them.  Now, I feel like I have a much better understanding of why I need certain things in my code and I’m going to try to make it a goal to focus on going over our weekly repos line by line every time we learn something new. Overall, this was a very big lesson learned for me this week.</p>"
+        },
+        {
+        "id": "blog9",
+        "title": "Blog Week #9",
+        "date": "05/01/2018",
+        "post": "<p><strong>Chatty Papaphobia: </strong>This project was a good learning experience. We took a lot of time planning and got a little bit behind because we made cards individually to try to knock them out faster.  This caused a lot of duplication and therefore a lot of extra time to fix the duplication.  Next time, I think it would be better to go through project altogether a few times and stop trying to get ahead on certain pieces.</p><p>My portion of the project ended up being JS setup and mostly focused on the CSS themes and how to flip them out in JS.  It was a good challenge and I learned a lot about how I would change themes in the future and the right and wrong ways to do it.  The biggest lesson to me (knowing what I know now) would be to create the theme flipper function first and just apply a solid background color to make sure it worked and then once it worked, to individually style themes instead of trying to add and subtract styling adjustments piecemeal.  I also learned some cool CSS tricks I didn’t know before because of this project. Overall, it was a good learning experience and I feel more prepared for our next project because of it.</p>"
+        },
+        {
+        "id": "blog10",
+        "title": "Blog Week #10",
+        "date": "05/06/2018",
+        "post": "<p><strong>JQuery: </strong>I can already tell JQuery and I are going to be friends.  During the lectures, I felt much better about JS because of the simplified logic of JQuery.  It’s going to take some getting used to after using the advanced JS methods, because now I’m trying to figure out where I can use JQuery instead and I am tending to overthink problems.  I am still struggling with over thinking event listeners, but I’m hoping the more I practice JQuery the better I will get at them.  Overall, I’m excited to get used to JQuery and using it instead of the more complex JS methods.</p>"
         }
     ]
 }
