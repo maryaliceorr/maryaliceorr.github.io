@@ -183,4 +183,11 @@ img {
 
 /* blogs page ____________________________________________*/
 
-
+#blogs-holder h2 {
+    font-family: 'Rock Salt', cursive;
+    background-color: #16272b;
+    width: 100%;
+    height: 100px;
+    padding-left: 50px;
+    margin-top: 20px;
+}
