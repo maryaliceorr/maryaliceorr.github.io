@@ -59,6 +59,12 @@
         "title": "Blog Week #10",
         "date": "05/06/2018",
         "post": "<p><strong>JQuery: </strong>I can already tell JQuery and I are going to be friends.  During the lectures, I felt much better about JS because of the simplified logic of JQuery.  It’s going to take some getting used to after using the advanced JS methods, because now I’m trying to figure out where I can use JQuery instead and I am tending to overthink problems.  I am still struggling with over thinking event listeners, but I’m hoping the more I practice JQuery the better I will get at them.  Overall, I’m excited to get used to JQuery and using it instead of the more complex JS methods.</p>"
+        },
+        {
+        "id": "blog11",
+        "title": "Blog Week #11",
+        "date": "05/20/2018",
+        "post": "<p><strong>Promises: </strong>Oh promises promises promises...I'm not sure what to think of you yet.  I think promises will be helpful and thus far I like the methodology behind them.  I like the idea of having better understanding on the front end of when I need my data and how some data is dependant upon other data.  I think I will get more comfortable with promises as I use them and I hope to have better understanding of when to use chaining vs. .all as we go. I also hope to have a better understanding of some of the inner workings of promises as we go.</p>"
         }
     ]
 }
