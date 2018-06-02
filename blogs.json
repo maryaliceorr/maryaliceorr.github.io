@@ -65,6 +65,18 @@
         "title": "Blog Week #11",
         "date": "05/20/2018",
         "post": "<p><strong>Promises: </strong>Oh promises promises promises...I'm not sure what to think of you yet.  I think promises will be helpful and thus far I like the methodology behind them.  I like the idea of having better understanding on the front end of when I need my data and how some data is dependant upon other data.  I think I will get more comfortable with promises as I use them and I hope to have better understanding of when to use chaining vs. .all as we go. I also hope to have a better understanding of some of the inner workings of promises as we go.</p>"
+        },
+        {
+        "id": "blog12",
+        "title": "Blog Week #12",
+        "date": "05/25/2018",
+        "post": "<p><strong>APIs: </strong>APIs seem a little scary as far as how easy it is to mistakenly push your API key to github.  I guess that was a good takeaway for me though that I will try to be super careful to make sure I don't do that. Otherwise, being able to use APIs is exciting to me because it means I can start utilizing data that is already  built. As far as coding how to use it, I think that will get easier with time.</p>"
+        },
+        {
+        "id": "blog13",
+        "title": "Blog Week #13",
+        "date": "06/02/2018",
+        "post": "<p><strong>Firebase: </strong>I'm excited for this funcitonality and I think that aspects of some of the backend type utilizations make a lot of sense to me. Determining how the data needs to be grouped reminds me of creaeting Excel databases which I do a lot at work. As far as implementing Firebase, I need some work on it.  Tuesday's lecture I was struggling due to a really intense workday prior to class, but I'm hoping the more I work on it, the more the concepts are solidified. I generally understand how firebase works, I just need more time to work on it.</p>"
         }
     ]
 }
