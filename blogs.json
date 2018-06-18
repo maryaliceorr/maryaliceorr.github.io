@@ -77,6 +77,12 @@
         "title": "Blog Week #13",
         "date": "06/02/2018",
         "post": "<p><strong>Firebase: </strong>I'm excited for this funcitonality and I think that aspects of some of the backend type utilizations make a lot of sense to me. Determining how the data needs to be grouped reminds me of creaeting Excel databases which I do a lot at work. As far as implementing Firebase, I need some work on it.  Tuesday's lecture I was struggling due to a really intense workday prior to class, but I'm hoping the more I work on it, the more the concepts are solidified. I generally understand how firebase works, I just need more time to work on it.</p>"
+        },
+        {
+        "id": "blog14",
+        "title": "Blog Week #14",
+        "date": "06/17/2018",
+        "post": "<p><strong>Firebase Auth: </strong>The authorization part of Firebase seems to be more of a process that we have to run through specifically for Firebase, rather than coding via multiple options of executing the process.  It seems like a fairly straightforward process, I will just need more practice with it to get comfortable using it. As far as using it, I am excited to start using and understand this functionality.</p>"
         }
     ]
 }
