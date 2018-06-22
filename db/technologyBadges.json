@@ -1,0 +1,59 @@
+{
+  "technologyBadges": [
+      {
+      "badgeId": "1",
+      "badgeName": "Bootstrap",
+      "badgeImg": "./images/technologyBadges/Bootstrap.png"
+      },
+      {
+      "badgeId": "2",
+      "badgeName": "Browserify",
+      "badgeImg": "./images/technologyBadges/Browserify.png"
+      },
+      {
+      "badgeId": "3",
+      "badgeName": "CSS",
+      "badgeImg": "./images/technologyBadges/CSS.png"
+      },
+      {
+      "badgeId": "4",
+      "badgeName": "Firebase",
+      "badgeImg": "./images/technologyBadges/Firebase.png"
+      },
+      {
+      "badgeId": "5",
+      "badgeName": "Github",
+      "badgeImg": "./images/technologyBadges/Github.png"
+      },
+      {
+      "badgeId":"6",
+      "badgeName": "Grunt",
+      "badgeImg": "./images/technologyBadges/Grunt.png"
+      },
+      {
+      "badgeId": "7",
+      "badgeName": "HTML5",
+      "badgeImg": "./images/technologyBadges/HTML5.png"
+      },
+      {
+      "badgeId":"8",
+      "badgeName": "jQuery",
+      "badgeImg": "./images/technologyBadges/jQuery.gif"
+      },
+      {
+      "badgeId": "9",
+      "badgeName": "JavaScript",
+      "badgeImg": "./images/technologyBadges/JS.png"
+      },
+      {
+      "badgeId": "10",
+      "badgeName": "Markdown",
+      "badgeImg": "./images/technologyBadges/Markdown.png"
+      },
+      {
+      "badgeId": "11",
+      "badgeName": "Sass",
+      "badgeImg": "./images/technologyBadges/Sass.png"
+      }
+  ]
+}

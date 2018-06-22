@@ -1,0 +1,35 @@
+{
+  "projects": [
+    {
+    "projectId": 1,
+    "title": "Movie Maker",
+    "thumbnail": "./db/movieMaker",
+    "description": "This project depicts a movie maker that shows whether the film you are trying to make is on budget based on the actors, special effects, animals and locations chosen. It also shows the status of your budget as you choose the options for the movie.",
+    "badgeId": [1, 2, 3, 5, 6, 7, 9, 10],
+    "available": true,
+    "url": "https://XXX.firebaseapp.com",
+    "github": "https://github.com/maryaliceorr/movie-maker"
+    },
+    {
+    "projectId": 2,
+    "title": "Chat Application",
+    "thumbnail": "./db/movieMaker",
+    "description": "This project depicts a movie maker that shows whether the film you are trying to make is on budget based on the actors, special effects, animals and locations chosen. It also shows the status of your budget as you choose the options for the movie.",
+    "badgeId": [1, 2, 3, 5, 6, 7, 9, 10],
+    "available": true,
+    "url": "https://XXX.firebaseapp.com",
+    "github": "https://github.com/maryaliceorr/movie-maker"
+    },
+    {
+    "projectId": 2,
+    "title": "Band Members",
+    "thumbnail": "./db/movieMaker",
+    "description": "This project depicts a movie maker that shows whether the film you are trying to make is on budget based on the actors, special effects, animals and locations chosen. It also shows the status of your budget as you choose the options for the movie.",
+    "badgeId": [3, 5, 7, 9, 10],
+    "available": true,
+    "url": "https://XXX.firebaseapp.com",
+    "github": "https://github.com/maryaliceorr/movie-maker"
+    }
+
+  ]
+}
