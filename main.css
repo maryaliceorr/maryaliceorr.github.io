@@ -1,193 +1,109 @@
-
-/* main____________________________________________*/
-
-* {
-    background-color: #256b72;
-    color: whitesmoke;
-    /* font-family: 'Just Me Again Down Here', cursive; */
-    font-family: 'Abel', sans-serif;
-    font-size: 24px;
-    margin: 0;
-    padding: 0;
-
-}
-
-
-/* body ____________________________________________*/
-
-
-p {
-    padding: 10px 60px;
-    margin-bottom: 10px;
-    width: 60%;
-
-}
-
-ol {
-    padding: 10px 60px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    width: 60%;
-}
-
-.main-container {
-    display: block;
+body, html {
     height: 100%;
-    padding-bottom: 50px;
-    margin-bottom: 200px;
-}
+  }
 
+  #parallax1 {
+    /* The image used */
+    background-image: url("./images/parallax1.jpg");
 
+    /* Full height */
+    height: 100%;
 
-/* header tags ____________________________________________*/
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-h1 {
-    text-align: center;
-    font-size: 40px;
-    font-family: 'Rock Salt', cursive;
-    padding-top: 80px;
-    padding-bottom: 30px;
-}
+  #parallax2 {
+    /* The image used */
+    background-image: url("./images/parallax2.jpg");
 
-h2 {
-    font-family: 'Rock Salt', cursive;
-    background-color: #16272b;
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #parallax3 {
+    /* The image used */
+    background-image: url("./images/parallax3.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #parallax4 {
+    /* The image used */
+    background-color: blue;
+
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #down-container {
+    display: flex;
     width: 100%;
-    height: 100px;
-    padding-left: 50px;
-    margin-top: 20px;
-}
+  }
 
+  #down-arrow {
+    color: white;
+    height: 300px;
+    width: 300px;
+  }
 
-h3 {
-    padding-left: 60px;
-    padding-bottom: 10px;
-}
+  /* NAVBAR */
 
-h4 {
-    padding-left: 60px;
-}
-
-/* nav bar ____________________________________________*/
-
-.bar {
+  .bar {
     position: fixed;
     width: 100%;
     top: 0;
     margin: 0;
     overflow: hidden;
-    background-color: whitesmoke;
+    background-color: lightgray;
+  }
 
-}
-
-.bar li {
+  .bar li {
     float: left;
     text-decoration: none;
     list-style-type: none;
-}
+  }
 
-.bar li a {
+  .bar li a {
     display: block;
+    font-size: 36px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: whitesmoke;
-    color: #256b72;
-}
+    /* background-color: lightgray; */
+    color: white;
+  }
 
-.bar li a:hover{
-    background-color: lightslategrey;
-    color: whitesmoke;
+  .bar li a:hover{
+    /* background-color: lightslategray; */
+    color: #34373d;
     text-decoration: none;
-}
+  }
 
-
-
-/* footer ____________________________________________*/
-
-.bottom-footer {
-    left: 0px;
-    bottom: 0px;
-    height: 100px;
-    position: fixed;
-    background-color: whitesmoke;
-    color: #16272b;
-    width: 100%;
-
-}
-
-.bottom-footer li {
-
-    padding-left: 60px;
-    padding-top: 40px;
-    padding-bottom: 0px;
-    background-color: whitesmoke;
-    color: #16272b;
-
-}
-
-
-/* history page ____________________________________________*/
-
-.history li {
-    padding-left: 60px;
-    list-style-type: square;
-}
-.job {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-/* projects page ____________________________________________*/
-
-img {
-    display: block;
-    width: 400px;
-    height: 400px;
-    padding: 30px 60px;
-}
-
-.column1 {
-    float: left;
-    width: 50%;
-}
-
-.column2 {
-    float: right;
-    width: 50%;
-}
-
-.row {
-    width: 100%;
-    height: 800px;
-}
-
-.project-cards a {
-    padding-left: 60px;
-    margin-bottom: 60px;
-    font-size: 24px;
-}
-
-
-/* contact page ____________________________________________*/
-
-.contact {
-    padding-top: 20px;
-    padding-left: 60px;
-}
-.contact li {
-    padding-top: 10px 60px;
-    text-decoration: none;
-}
-
-
-/* blogs page ____________________________________________*/
-
-#blogs-holder h2 {
-    font-family: 'Rock Salt', cursive;
-    background-color: #16272b;
-    width: 100%;
-    height: 100px;
-    padding-left: 50px;
-    margin-top: 20px;
-}
