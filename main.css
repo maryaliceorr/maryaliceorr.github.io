@@ -1,13 +1,14 @@
 body, html {
     height: 100%;
+    font-size: 18px;
   }
 
   #parallax1 {
     /* The image used */
-    background-image: url("./images/parallax1.jpg");
+    background-image: url("./images/backgrounds/parallax1.jpg");
 
     /* Full height */
-    height: 100%;
+    height: 1600px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -18,7 +19,7 @@ body, html {
 
   #parallax2 {
     /* The image used */
-    background-image: url("./images/parallax2.jpg");
+    background-image: url("./images/backgrounds/parallax2.jpg");
 
     /* Full height */
     height: 100%;
@@ -32,7 +33,7 @@ body, html {
 
   #parallax3 {
     /* The image used */
-    background-image: url("./images/parallax3.jpg");
+    background-image: url("./images/backgrounds/parallax3.jpg");
 
     /* Full height */
     height: 100%;
@@ -45,7 +46,7 @@ body, html {
   }
   #parallax4 {
     /* The image used */
-    background-color: blue;
+    background-color: grey;
 
     /* Full height */
     height: 100%;
@@ -89,6 +90,7 @@ body, html {
     float: left;
     text-decoration: none;
     list-style-type: none;
+
   }
 
   .bar li a {
@@ -97,6 +99,7 @@ body, html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 18px;
     /* background-color: lightgray; */
     color: white;
   }

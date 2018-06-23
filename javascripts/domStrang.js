@@ -19,6 +19,14 @@ const projectCards = (projectArray) => {
     strang2 +=     `<img class="project-image" src="${project.imageURL}">`;
     strang2 +=     `<p>${project.description}</p>`;
     strang2 +=     `<a href="${project.githubURL}">${project.id}</a>`;
+    strang2 +=     `<div>`;
+    strang2 +=      `<h4>Technologies Used:</h4>`;
+
+    project.badges.forEach((badge) => {
+      strang2 +=      `<img src=${badge.badgeImg}/> `;
+    });
+
+    strang2 +=     `</div>`;
     strang2 +=   `</div>`;
     strang2 += `</div>`;
   });

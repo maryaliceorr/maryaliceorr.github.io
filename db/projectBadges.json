@@ -1,0 +1,18 @@
+{
+	"projectBadge1": {
+    "projectId": "project1",
+    "badgeId": "badge01"
+  },
+  "projectBadge2": {
+    "projectId": "project1",
+    "badgeId": "badge02"
+  },
+  "projectBadge3": {
+    "projectId": "project2",
+    "badgeId": "badge03"
+  },
+  "projectBadge4": {
+    "projectId": "project3",
+    "badgeId": "badge04"
+	}
+}
