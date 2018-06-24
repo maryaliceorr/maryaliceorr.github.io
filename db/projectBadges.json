@@ -1,18 +1,86 @@
 {
 	"projectBadge1": {
-    "projectId": "project1",
+    "projectId": "project01",
     "badgeId": "badge01"
   },
   "projectBadge2": {
-    "projectId": "project1",
+    "projectId": "project01",
     "badgeId": "badge02"
   },
   "projectBadge3": {
-    "projectId": "project2",
+    "projectId": "project01",
     "badgeId": "badge03"
   },
   "projectBadge4": {
-    "projectId": "project3",
-    "badgeId": "badge04"
-	}
+    "projectId": "project01",
+    "badgeId": "badge05"
+  },
+  "projectBadge5": {
+    "projectId": "project01",
+    "badgeId": "badge06"
+  },
+  "projectBadge6": {
+    "projectId": "project01",
+    "badgeId": "badge07"
+  },
+  "projectBadge7": {
+    "projectId": "project01",
+    "badgeId": "badge09"
+  },
+  "projectBadge8": {
+    "projectId": "project1",
+    "badgeId": "badge10"
+  },
+  "projectBadge9": {
+    "projectId": "project02",
+    "badgeId": "badge01"
+  },
+  "projectBadge10": {
+    "projectId": "project02",
+    "badgeId": "badge02"
+  },
+  "projectBadge11": {
+    "projectId": "project02",
+    "badgeId": "badge03"
+  },
+  "projectBadge12": {
+    "projectId": "project02",
+    "badgeId": "badge05"
+  },
+  "projectBadge13": {
+    "projectId": "project02",
+    "badgeId": "badge06"
+  },
+  "projectBadge14": {
+    "projectId": "project02",
+    "badgeId": "badge07"
+  },
+  "projectBadge15": {
+    "projectId": "project02",
+    "badgeId": "badge09"
+  },
+  "projectBadge16": {
+    "projectId": "project02",
+    "badgeId": "badge10"
+  },
+  "projectBadge17": {
+    "projectId": "project03",
+    "badgeId": "badge03"
+  },
+  "projectBadge18": {
+    "projectId": "project03",
+    "badgeId": "badge05"
+  },
+  "projectBadge19": {
+    "projectId": "project03",
+    "badgeId": "badge07"
+  },
+  "projectBadge20": {
+    "projectId": "project03",
+    "badgeId": "badge09"
+  },
+  "projectBadge21": {
+    "projectId": "project03",
+    "badgeId": "badge10"
+  }
 }

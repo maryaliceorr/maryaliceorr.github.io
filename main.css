@@ -1,6 +1,8 @@
 body, html {
     height: 100%;
     font-size: 18px;
+    background-color: grey;
+    font-family: 'Arimo', sans-serif;
   }
 
   #parallax1 {
@@ -46,8 +48,8 @@ body, html {
   }
   #parallax4 {
     /* The image used */
-    background-color: grey;
-
+    /* background-color: grey; */
+    background-image: url("./images/backgrounds/parallax4.jpg");
     /* Full height */
     height: 100%;
 
@@ -58,6 +60,9 @@ body, html {
     background-size: cover;
   }
 
+  .card-holder {
+    display: flex;
+  }
   .center {
     display: flex;
     align-items: center;
@@ -100,6 +105,7 @@ body, html {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;
+    font-family: 'Arimo', sans-serif;
     /* background-color: lightgray; */
     color: white;
   }
@@ -110,3 +116,42 @@ body, html {
     text-decoration: none;
   }
 
+.project-badges {
+  height: 30px;
+  margin: 5px;
+}
+
+.project-cards {
+  margin: 10px;
+  border: none;
+}
+
+.project-cards h2 {
+  font-size: 24px;
+  font-family: 'Arimo', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+.project-cards h4 {
+  font-family: 'Arimo', sans-serif;
+  text-transform: uppercase;
+}
+
+.panel-heading {
+  background-color: #34373d;
+}
+
+.panel-footer {
+  background-color: white;
+  color: #34373d;
+}
+
+.panel-body {
+  background-color: gray;
+  color: white;
+}
+
+#projects-holder {
+  flex-direction: column;
+}
