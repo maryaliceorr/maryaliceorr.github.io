@@ -11,10 +11,17 @@ const printBlogs = () => {
     });
 };
 
-const eventsInitializer = () => {
-  printBlogs();
+const printBadgeCard = () => {
+  firebaseApi.getBadgeCard()
+    .then((blogsArray) => {
+      domStrang.blogCards(blogsArray);
+    })
+    .catch((error) => {
+      console.error('printBlogs error', error);
+    });
 };
 
 module.exports = {
-  eventsInitializer,
+  printBadgeCard,
+  printBlogs,
 };
