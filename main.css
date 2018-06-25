@@ -1,6 +1,8 @@
 body, html {
     height: 100%;
     font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    background-color: black;
   }
 
   #parallax1 {
@@ -8,18 +10,19 @@ body, html {
     background-image: url("./images/backgrounds/parallax1.jpg");
 
     /* Full height */
-    height: 1600px;
+    height: 125%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: 0;
   }
 
   #parallax2 {
     /* The image used */
-    background-image: url("./images/backgrounds/parallax2.jpg");
+    background-color: #187f91;
 
     /* Full height */
     height: 100%;
@@ -36,7 +39,7 @@ body, html {
     background-image: url("./images/backgrounds/parallax3.jpg");
 
     /* Full height */
-    height: 100%;
+    height: 125%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -46,10 +49,10 @@ body, html {
   }
   #parallax4 {
     /* The image used */
-    background-color: grey;
-
+    /* background-color: grey; */
+    background-image: url("./images/backgrounds/parallax4.jpg");
     /* Full height */
-    height: 100%;
+    height: 150%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -58,21 +61,13 @@ body, html {
     background-size: cover;
   }
 
+  .card-holder {
+    display: flex;
+  }
   .center {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-
-  #down-container {
-    display: flex;
-    width: 100%;
-  }
-
-  #down-arrow {
-    color: white;
-    height: 300px;
-    width: 300px;
   }
 
   /* NAVBAR */
@@ -83,7 +78,9 @@ body, html {
     top: 0;
     margin: 0;
     overflow: hidden;
-    background-color: lightgray;
+    background-color: darkgray;
+    border: none;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
   }
 
   .bar li {
@@ -99,7 +96,8 @@ body, html {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
+    font-family: 'Arimo', sans-serif;
     /* background-color: lightgray; */
     color: white;
   }
@@ -110,3 +108,148 @@ body, html {
     text-decoration: none;
   }
 
+.project-badges {
+  height: 30px;
+  margin: 5px;
+}
+
+.project-cards {
+  margin: 10px;
+  border: none;
+  width: 70%;
+}
+
+.project-cards h2 {
+  font-size: 24px;
+  font-family: 'Arimo', sans-serif;
+  text-transform: uppercase;
+  color: white;
+}
+
+.project-cards h4 {
+  font-family: 'Arimo', sans-serif;
+  text-transform: uppercase;
+}
+
+.panel-heading {
+  background-color: #34373d;
+}
+
+.panel-footer {
+  background-color: white;
+  color: #34373d;
+}
+
+.panel-body {
+  background-color: gainsboro;
+  color: #34373d;
+}
+
+/* #projects-holder {
+  flex-direction: column;
+} */
+
+.project-image {
+  max-height: 500px;
+  margin: 20px;
+}
+
+.code-btn {
+  background-color: #34373d;
+  color: white;
+}
+
+.site-btn {
+  background-color: white;
+  color: #34373d;
+}
+
+.project-card-descrip {
+  margin-bottom: 15px;
+}
+
+.main-h2 {
+  padding-top: 80px;
+  color: white;
+  font-size: 64px;
+  margin-top: 0;
+}
+
+.project-button-group a {
+  margin: 5px 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+#projects-holder {
+  margin: 30px;
+}
+
+.bio-text {
+  float: none;
+  margin: 0 auto;
+}
+
+.bio-text p{
+  width: 95%;
+  font-size: 25px;
+  padding: 30px 20px 5px 20px;
+  color: white;
+}
+
+.bio-pic {
+  height: 400px;
+  margin: 30px;
+  border:10px solid white;
+  transform: rotate(270deg);
+}
+
+#homepage-container {
+margin-top: 0;
+}
+
+.homepage-logo {
+  max-width: 350px;
+  margin-top: 15%;
+}
+
+.homepage-nameplate {
+max-height: 200px;
+}
+
+.nav-nameplate {
+  height: 36px;
+  margin-top: 12px;
+  margin-right: 10%;
+}
+
+hr {
+  width: 20%;
+}
+
+.consult-column {
+background-color: #fffb7f;
+height: 100%;
+}
+
+.photo-column {
+background-color: black;
+height: 100%;
+}
+
+.consult-logo {
+height: 400px;
+margin-top: 5%;
+}
+
+.photo-logo {
+  height: 400px;
+  margin-top: 5%;
+}
+
+.experience-logo-container {
+  height: 500px;
+  border: none;
+}

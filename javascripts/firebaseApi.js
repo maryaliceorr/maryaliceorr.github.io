@@ -1,10 +1,14 @@
 const domStrang = require('./domStrang');
+const events = require('./events');
+
 let firebaseConfig = {};
 
 const setFirebaseConfig = (fbConfig) => {
   firebaseConfig = fbConfig;
   firebase.initializeApp(fbConfig);
   smashProjectsAndBadges();
+  events.printBlogs();
+  events.printBadgeCard();
 };
 
 const getFirebaseConfig = () => {
@@ -74,8 +78,6 @@ const smashProjectsAndBadges = () => {
     const projects = values[0];
     const badges = values[1];
     const projectBadges = values[2];
-    console.error('projects', badges);
-    console.error('projects', projectBadges);
     projects.forEach((project) => {
       project.badges = [];
     });
@@ -87,7 +89,6 @@ const smashProjectsAndBadges = () => {
         }
       });
     });
-    console.error('projects', projects);
     domStrang.projectCards(projects);
   });
 };
@@ -114,9 +115,32 @@ const getBlogs = () => {
   });
 };
 
+const getBadgeCard = () => {
+  const badgesArray = [];
+  return new Promise((resolve, reject) => {
+    $.ajax({
+      method: 'GET',
+      url: `${firebaseConfig.databaseURL}/badges.json`,
+    })
+      .done((badgesObject) => {
+        if (badgesObject !== null) {
+          Object.keys(badgesObject).forEach((fbKey) => {
+            badgesObject[fbKey].id = fbKey;
+            badgesArray.push(badgesObject[fbKey]);
+          });
+        }
+        resolve(badgesArray);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
+};
+
 module.exports = {
   getFirebaseConfig,
   setFirebaseConfig,
   smashProjectsAndBadges,
   getBlogs,
+  getBadgeCard,
 };

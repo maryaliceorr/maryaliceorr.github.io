@@ -1,0 +1,27 @@
+{
+  "job01":{
+    "title": "Movie Maker",
+    "company":"",
+    "logo": "./images/projects/project1.png",
+    "li1": "This project depicts a movie maker that shows whether the film you are trying to make is on budget based on the actors, special effects, animals and locations chosen. It also shows the status of your budget as you choose the options for the movie.",
+    "dates": "",
+    "url": "https://XXX.firebaseapp.com",
+    "github": "https://github.com/maryaliceorr/movie-maker"
+    },
+    "project02":{
+    "title": "Chatty Unicorn Application",
+    "thumbnail": "./images/projects/project2.png",
+    "description": "This project depicts a movie maker that shows whether the film you are trying to make is on budget based on the actors, special effects, animals and locations chosen. It also shows the status of your budget as you choose the options for the movie.",
+    "available": true,
+    "url": "https://XXX.firebaseapp.com",
+    "github": "https://github.com/maryaliceorr/chatty-papaphobia"
+    },
+    "project03": {
+    "title": "Band Website",
+    "thumbnail": "./images/projects/project3.png",
+    "description": "This project depicts a movie maker that shows whether the film you are trying to make is on budget based on the actors, special effects, animals and locations chosen. It also shows the status of your budget as you choose the options for the movie.",
+    "available": true,
+    "url": "https://XXX.firebaseapp.com",
+    "github": "https://github.com/maryaliceorr/bandz-semi-solids"
+    }
+}

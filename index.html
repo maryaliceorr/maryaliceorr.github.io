@@ -3,6 +3,7 @@
   <head>
       <meta charset="UTF-8">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Abel|Just+Me+Again+Down+Here" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Rock+Salt" rel="stylesheet">
       <link rel="stylesheet" href="main.css">
@@ -11,26 +12,76 @@
   <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-default navbar-fixed-top bar">
-      <li class="active"><a href="#">HOME<span class="sr-only">(current)</span></a></li>
-      <li><a href="#">BIO</a></li>
-      <li><a href="#">EXPERIENCE</a></li>
-      <li><a href="#">WORK</a></li>
-      <li><a href="#">BLOGS</a></li>
+      <li class="active"><a class="nav-link js-scroll-trigger active" href="#parallax1">HOME<span class="sr-only">(current)</span></a></li>
+      <li><a class="nav-link js-scroll-trigger active" href="#parallax2">BIO</a></li>
+      <li><a class="nav-link js-scroll-trigger active" href="#parallax3">EXPERIENCE</a></li>
+      <li><a class="nav-link js-scroll-trigger active" href="#parallax4">WORK</a></li>
+      <li><a class="nav-link js-scroll-trigger active" href="#parallax5">BLOGS</a></li>
+      <ul class="nav navbar-nav navbar-right">
+        <li><img class="nav-nameplate navbar-right" src="./images/nameplate.png"></li>
+      </ul>
     </nav>
 
 
     <div id="parallax1">
-      <div>NAME GOES HERE</div>
-      <div>LOGO GOES HERE</div>
+      <div id="homepage-container">
+        <div class="text-center">
+          <img class="homepage-logo" src="./images/logo.png">
+        </div>
+        <div class="text-center">
+          <img class="homepage-nameplate" src="./images/nameplate.png">
+        </div>
+      </div>
+    </div>
+
+    <div id="parallax2">
+        <h2 class="main-h2 text-center">BIO</h2>
+        <hr>
+
+        <div class="bio-text row">
+          <div class="col-sm-4 text-center">
+              <img class="bio-pic img-circle" src="./images/biopic.jpg">
+          </div>
+          <div class="col-sm-8">
+          <p>Who am I? My name is Mary Alice Orr and now I am a coder. I suppose you could classify me as a "Jane of all trades" because I enjoy lots of things. What kinds of things you might ask? Well, when I'm working I enjoy creating, building, and analyzing anything and everything. In my free time I enjoy paddleboarding with my husky, rock climbing in the great outdoors, photographing national parks, playing jazz, or cooking a gourmet meal. So...how did I get to where I am now?</p>
+
+          <p>As a little girl, I was fascinated by how things worked. I wanted to know why they worked and what made them tick. Whether it was testing cookie recipes in my Easy-Bake Oven, conducting science experiments with household items, or building toy robots, I wanted to understand how ideas became final products. My parents always thought I would be an engineer and while that’s not technically what I do for a living, it is exactly how I approach my work. </p>
+
+          <p>That tinkering mindsight led me to Nashville Software School, where I'm currently studying web development. At work, I specialize in advertising operations and revenue optimization. My true talent, however, lies in understanding the big picture. When I’m working on a project, I think of it as a giant chess game. Every piece on the board represents a responsibility I have learned: web development, marketing, branding, advertising, sales, data analytics, and revenue returns. Every piece has to work in tandem and every roadblock must be anticipated and negated for the game to be won. If one piece gets taken before its job is done, the whole game is compromised. </p>
+
+          <p>Every day, I'm learning something new in today's digital landscape. Coding has taught me to look at websites in a completely different light and also created a forum for me to learn. I'm excited to see where this journey takes me and where I can merry all of these skillsets for future use.</p>
+        </div>
+      </div>
+    </div>
+    <div id="parallax3">
+        <h2 class="main-h2 text-center">EXPERIENCE</h2>
+        <div id="experience-holder"></div>
+        <div class="experience-logo-container row">
+
+            <div class="photo-column col-sm-6">
+              <div class="text-center">
+                <img class="photo-logo" src="./images/photologo.png">
+              </div>
+            </div>
+
+            <div class="consult-column col-sm-6">
+              <div class="text-center">
+                <img class="consult-logo" src="./images/consultlogo.png">
+              </div>
+            </div>
+
+        </div>
+
 
     </div>
-    <div id="parallax2">BIO GOES HERE</div>
-    <div id="parallax3">
-    </div>
+
     <div id="parallax4">
-      <div id="projects-holder"></div>
+      <h2 class="main-h2 text-center">WORK</h2>
+        <div id="badge-holder" class="center"></div>
+        <div id="projects-holder" class="card-holder center"></div>
     </div>
     <div id="parallax5">
+      <h2 class="main-h2 text-center">BLOG</h2>
       <div id="blogs-holder"></div>
     </div>
 
