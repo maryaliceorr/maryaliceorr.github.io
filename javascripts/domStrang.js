@@ -1,13 +1,19 @@
 const blogCards = (blogArray) => {
   let strang = '';
   blogArray.forEach((blog) => {
-    strang += `<div id=${blog.id}>`;
-    strang +=   `<h2>${blog.title}</h2>`;
-    strang +=   `<h4>${blog.date}</h4>`;
-    strang +=   `<p>${blog.post}</p>`;
-    strang += `</div>`;
+    strang1 += `<div class="panel col-sm-4">`;
+    strang1 +=  `<div class="panel-heading">`;
+    strang1 +=   `<h3 class="panel-title">${blog.title}</h3>`;
+    strang1 +=  `</div>`;
+    strang1 +=  `<div class="panel-body">`;
+    strang1 +=   `<div class="text-center">`;
+    strang1 +=    `<h3 class="blog-date">${blog.date}</h3>`;
+    strang1 +=   `</div>`;
+    strang1 +=   `<p>${blog.post}</p>`;
+    strang1 += `</div>`;
+    strang1 +=`</div>`;
   });
-  writeToDom('#blogs-holder', strang);
+  writeToDom('#blogs-holder', strang1);
 };
 
 const badgeCard = (badgeArray) => {
@@ -48,6 +54,30 @@ const projectCards = (projectArray) => {
   });
   writeToDom('#projects-holder', strang2);
 };
+
+const jobCards = (jobseArray) => {
+  let strang4 = '';
+  jobsArray.forEach((job) => {
+    strang4 += `<div class="panel col-sm-4">`;
+    strang4 +=  `<div class="panel-heading">`;
+    strang4 +=   `<h3 class="panel-title">${job.title}</h3>`;
+    strang4 +=  `</div>`;
+    strang4 +=  `<div class="panel-body">`;
+    strang4 +=   `<div class="text-center">`;
+    strang4 +=    `<img class="experience-logos" src="${job.logo}">`;
+    strang4 +=    `<h3 class="experience-company">${job.company}</h3>`;
+    strang4 +=    `<h4>${job.dates}</h4>`;
+    strang4 +=   `</div>`;
+    strang4 +=   `<ul>`;
+    strang4 +=    `<li>${job.li1}</li>`;
+    strang4 +=    `<li>${job.li2}</li>`;
+    strang4 +=    `<li>${job.li3}</li>`;
+    strang4 +=   `</ul>`
+    strang4 += `</div>`
+    strang4 +=`</div>`
+  })
+  writeToDom('#experience-holder', strang4);
+}
 
 const writeToDom = (id, string) => {
   $(id).html(string);
