@@ -78,8 +78,6 @@ const smashProjectsAndBadges = () => {
     const projects = values[0];
     const badges = values[1];
     const projectBadges = values[2];
-    console.error('projects', badges);
-    console.error('projects', projectBadges);
     projects.forEach((project) => {
       project.badges = [];
     });
@@ -91,7 +89,6 @@ const smashProjectsAndBadges = () => {
         }
       });
     });
-    console.error('projects', projects);
     domStrang.projectCards(projects);
   });
 };
