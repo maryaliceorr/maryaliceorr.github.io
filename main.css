@@ -49,10 +49,10 @@ body, html {
   }
   #parallax4 {
     /* The image used */
-    /* background-color: grey; */
-    background-image: url("./images/backgrounds/parallax4.jpg");
+    background-color: #f77402;
+    /* background-image: url("./images/backgrounds/parallax4.jpg"); */
     /* Full height */
-    height: 150%;
+    height: 100%;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -133,6 +133,7 @@ body, html {
 
 .panel-heading {
   background-color: #34373d;
+
 }
 
 .panel-footer {
@@ -144,10 +145,6 @@ body, html {
   background-color: gainsboro;
   color: #34373d;
 }
-
-/* #projects-holder {
-  flex-direction: column;
-} */
 
 .project-image {
   max-height: 500px;
@@ -252,4 +249,27 @@ margin-top: 5%;
 .experience-logo-container {
   height: 500px;
   border: none;
+  margin-bottom: 0;
+}
+
+.experience-logos {
+  height: 40px;
+}
+
+.panel-title{
+  font-size: 24px;
+  font-family: 'Arimo', sans-serif;
+  color: white;
+  text-transform: uppercase;
+}
+
+#experience-holder {
+  margin-bottom: 3%;
+}
+#experience-holder .panel{
+  background-color: transparent;
+}
+
+#experience-holder li{
+  text-align: left;
 }
