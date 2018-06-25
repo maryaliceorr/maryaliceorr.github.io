@@ -10,7 +10,7 @@
     "project02":{
     "title": "Chatty Unicorn Application",
     "thumbnail": "./images/projects/project2.png",
-    "description": "This project depicts a movie maker that shows whether the film you are trying to make is on budget based on the actors, special effects, animals and locations chosen. It also shows the status of your budget as you choose the options for the movie.",
+    "description": "This project depicts a unicorn themed messaging app/chat application where users can input messages, see other users' messages, and customize the theme.",
     "available": true,
     "url": "https://XXX.firebaseapp.com",
     "github": "https://github.com/maryaliceorr/chatty-papaphobia"
@@ -18,7 +18,7 @@
     "project03": {
     "title": "Band Website",
     "thumbnail": "./images/projects/project3.png",
-    "description": "This project depicts a movie maker that shows whether the film you are trying to make is on budget based on the actors, special effects, animals and locations chosen. It also shows the status of your budget as you choose the options for the movie.",
+    "description": "This project depicts a failed band website with separate pages for information about the band members, tour dates, songs and merch available for purchase using simple JS, HTML5 and CSS.",
     "available": true,
     "url": "https://XXX.firebaseapp.com",
     "github": "https://github.com/maryaliceorr/bandz-semi-solids"
