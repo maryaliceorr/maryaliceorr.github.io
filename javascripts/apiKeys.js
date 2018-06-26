@@ -1,5 +1,3 @@
-const firebaseApi = require('./firebaseApi');
-
 const apiKeys = () => {
   return new Promise((resolve, reject) => {
     $.ajax('./db/apiKeys.json')
@@ -12,16 +10,6 @@ const apiKeys = () => {
   });
 };
 
-const getThemKeys = () => {
-  apiKeys()
-    .then((results) => {
-      firebaseApi.setFirebaseConfig(results);
-    })
-    .catch((err) => {
-      console.error('getThemKeys', err);
-    });
-};
-
 module.exports = {
-  getThemKeys,
+  apiKeys,
 };

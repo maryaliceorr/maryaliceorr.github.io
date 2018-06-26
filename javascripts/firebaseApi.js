@@ -1,14 +1,10 @@
 const domStrang = require('./domStrang');
-const events = require('./events');
 
 let firebaseConfig = {};
 
 const setFirebaseConfig = (fbConfig) => {
   firebaseConfig = fbConfig;
   firebase.initializeApp(fbConfig);
-  smashProjectsAndBadges();
-  events.printBlogs();
-  events.printBadgeCard();
 };
 
 const getFirebaseConfig = () => {
