@@ -1,13 +1,13 @@
 const blogCards = (blogArray) => {
   let strang1 = '';
   blogArray.forEach((blog) => {
-    strang1 += `<div class="panel col-sm-4">`;
+    strang1 += `<div class="blog-card panel col-sm-12">`;
     strang1 +=  `<div class="panel-heading">`;
-    strang1 +=   `<h3 class="panel-title">${blog.title}</h3>`;
+    strang1 +=   `<h3 class="panel-title panel-left">${blog.title}</h3>`;
+    strang1 +=   `<h4 class="blog-date panel-right">${blog.date}</h4>`;
     strang1 +=  `</div>`;
     strang1 +=  `<div class="panel-body">`;
     strang1 +=   `<div class="text-center">`;
-    strang1 +=    `<h3 class="blog-date">${blog.date}</h3>`;
     strang1 +=   `</div>`;
     strang1 +=   `<p>${blog.post}</p>`;
     strang1 +=  `</div>`;
@@ -19,7 +19,9 @@ const blogCards = (blogArray) => {
 const badgeCard = (badgeArray) => {
   let strang3 = '';
   badgeArray.forEach((badge) => {
-    strang3 += `<img class="project-badges center" src="${badge.badgeImg}"/>`;
+    strang3 += `<div class="col-sm-1 center">`;
+    strang3 +=  `<img class="badges center" src="${badge.badgeImg}"/>`;
+    strang3 += `</div>`;
   });
   writeToDom('#badge-holder', strang3);
 };
@@ -58,7 +60,7 @@ const projectCards = (projectArray) => {
 const jobCards = (jobsArray) => {
   let strang4 = '';
   jobsArray.forEach((job) => {
-    strang4 += `<div class="panel col-sm-4">`;
+    strang4 += `<div class="panel job-card col-sm-4">`;
     strang4 +=  `<div class="panel-heading">`;
     strang4 +=   `<h3 class="panel-title">${job.title}</h3>`;
     strang4 +=  `</div>`;
@@ -76,7 +78,7 @@ const jobCards = (jobsArray) => {
     strang4 +=  `</div>`;
     strang4 += `</div>`;
   });
-  writeToDom('#experience-holder', strang4);
+  writeToDom('#jobs-holder', strang4);
 };
 
 const writeToDom = (id, string) => {
