@@ -133,10 +133,33 @@ const getBadgeCard = () => {
   });
 };
 
+const getJobs = () => {
+  const jobsArray = [];
+  return new Promise((resolve, reject) => {
+    $.ajax({
+      method: 'GET',
+      url: `${firebaseConfig.databaseURL}/jobs.json`,
+    })
+      .done((jobsObject) => {
+        if (jobsObject !== null) {
+          Object.keys(jobsObject).forEach((fbKey) => {
+            jobsObject[fbKey].id = fbKey;
+            jobsArray.push(jobsObject[fbKey]);
+          });
+        }
+        resolve(jobsArray);
+      })
+      .fail((error) => {
+        reject(error);
+      });
+  });
+};
+
 module.exports = {
   getFirebaseConfig,
   setFirebaseConfig,
   smashProjectsAndBadges,
   getBlogs,
   getBadgeCard,
+  getJobs,
 };

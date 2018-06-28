@@ -2,7 +2,7 @@
   "project01":{
     "title": "Movie Maker",
     "thumbnail": "./images/projects/project1.png",
-    "description": "This project depicts a movie maker that shows whether the film you are trying to make is on budget based on the actors, special effects, animals and locations chosen. It also shows the status of your budget as you choose the options for the movie.",
+    "description": "This project depicts a movie maker that shows whether the film you are trying to make is on budget based on the actors, special effects, animals and locations chosen.",
     "available": true,
     "url": "https://XXX.firebaseapp.com",
     "github": "https://github.com/maryaliceorr/movie-maker"

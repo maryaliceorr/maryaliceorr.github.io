@@ -8,6 +8,7 @@ const initializer = () => {
       firebaseApi.setFirebaseConfig(results);
       events.printBadgeCard();
       events.printBlogs();
+      events.printJobs();
       firebaseApi.smashProjectsAndBadges();
     })
     .catch((err) => {
