@@ -29,7 +29,7 @@ body, html {
     background-color: #187f91;
 
     /* Full height */
-    height: 1000px;
+    height: 1200px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -86,6 +86,20 @@ body, html {
     /* background-image: url("./images/backgrounds/parallax4.jpg"); */
     /* Full height */
     height: 1200px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #parallax7 {
+    /* The image used */
+    /* background-color: #f77402; */
+    background-image: url("./images/backgrounds/parallax7.jpg");
+    /* Full height */
+    height: 6500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -154,7 +168,10 @@ body, html {
   margin: 10px;
   border: none;
   width: 80%;
-  height: 90%;
+}
+
+.project-cards .panel-body {
+  height: 760px;
 }
 
 .project-cards h2 {
@@ -294,7 +311,10 @@ margin-top: 5%;
 }
 
 .experience-logos {
-  height: 40px;
+  max-height: 35px;
+  max-width: 100px;
+  margin: 10px;
+
 }
 
 .panel-title{
@@ -318,6 +338,10 @@ margin-top: 5%;
 .blog-card {
   background-color: transparent;
   border-radius: 50px;
+}
+
+.blog-card h4 {
+  color: white;
 }
 
 footer {
@@ -347,21 +371,25 @@ footer {
 }
 
 .job-card {
-  height: 350px;
+  height: 375px;
   background-color: transparent;
   margin-top: 30px;
+
 }
 
 .job-card .panel-heading {
   height: 70px;
-
 }
 
 .job-card .panel-heading h3 {
   color: white;
-  vertical-align: center;
+  vertical-align: middle;
 }
 
 .job-card h3, h4 {
   color: #34373d;
+}
+
+.job-card li {
+  text-align: left;
 }
