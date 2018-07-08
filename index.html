@@ -10,39 +10,56 @@
       <title>Mary Alice Orr</title>
   </head>
   <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-default navbar-fixed-top bar">
-      <li class="active"><a class="nav-link js-scroll-trigger active" href="#parallax1">HOME<span class="sr-only">(current)</span></a></li>
-      <li><a class="nav-link js-scroll-trigger active" href="#parallax2">BIO</a></li>
-      <li><a class="nav-link js-scroll-trigger active" href="#parallax3">EXPERIENCE</a></li>
-      <li><a class="nav-link js-scroll-trigger active" href="#parallax6">WORK</a></li>
-      <li><a class="nav-link js-scroll-trigger active" href="blogs.html">BLOGS</a></li>
+
+<!-- NAVBAR ! -->
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <img class="nav-nameplate" src="./images/logos/nameplate.png">
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav navbar-right">
-        <li><img class="nav-nameplate navbar-right" src="./images/logos/nameplate.png"></li>
+        <li><a class ="nav-categories" href="#parallax1">HOME <span class="sr-only">(current)</span></a></li>
+        <li><a class ="nav-categories" href="#parallax2">BIO</a></li>
+        <li><a class ="nav-categories" href="#parallax3">EXPERIENCE</a></li>
+        <li><a class ="nav-categories" href="#parallax6">CURRENT PROJECTS</a></li>
+        <li><a class ="nav-categories" href="blogs.html">BLOGS</a></li>
       </ul>
-    </nav>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
-
-    <div id="parallax1">
-      <div id="homepage-container">
-        <div class="text-center">
+    <div id="parallax1" class="container-fluid">
+      <div class="height1"></div>
+      <div id="homepage-container vertical-center container">
+        <div class="text-center container">
           <img class="homepage-logo" src="./images/logos/logo.png">
         </div>
-        <div class="text-center">
+        <div class="text-center container">
           <img class="homepage-nameplate" src="./images/logos/nameplate.png">
         </div>
       </div>
+      <div class="height1"></div>
     </div>
 
     <div id="parallax2">
+      <div class="container-fluid bio-container">
         <h2 class="main-h2 text-center">BIO</h2>
         <hr>
-
-        <div class="bio-text row">
-          <div class="col-sm-4 text-center">
-              <img class="bio-pic img-circle" src="./images/logos/biopic.jpg">
+        <div class="row">
+          <div class="col-lg-4 text-center">
+              <img class="bio-pic img-circle" src="./images/logos/biopic.png">
           </div>
-          <div class="col-sm-8">
+          <div class="col-lg-8 bio-text ">
           <p>Who am I? My name is Mary Alice Orr and now I am a coder. I suppose you could classify me as a "Jane of all trades" because I enjoy lots of things. What kinds of things you might ask? Well, when I'm working I enjoy creating, building, and analyzing anything and everything. In my free time I enjoy paddleboarding with my husky, rock climbing in the great outdoors, photographing national parks, playing jazz, or cooking a gourmet meal. So...how did I get to where I am now?</p>
 
           <p>As a little girl, I was fascinated by how things worked. I wanted to know why they worked and what made them tick. Whether it was testing cookie recipes in my Easy-Bake Oven, conducting science experiments with household items, or building toy robots, I wanted to understand how ideas became final products. My parents always thought I would be an engineer and while that’s not technically what I do for a living, it is exactly how I approach my work. </p>
@@ -53,9 +70,12 @@
         </div>
       </div>
     </div>
+  </div>
     <div id="parallax3">
+      <div class="container">
         <h2 class="main-h2 text-center">EXPERIENCE</h2>
-        <div id="jobs-holder" class="col-sm-12 text-center row"></div>
+        <div id="jobs-holder" class="text-center row"></div>
+      </div>
     </div>
 
     <div id="parallax4">
@@ -64,7 +84,7 @@
       </div>
 
     <div id="parallax5">
-        <div class="experience-logo-container center row">
+        <div class="experience-logo-container container center row">
             <div class="photo-column col-sm-6">
                 <div class="text-center">
                   <img class="photo-logo" src="./images/logos/photologo.png">
@@ -80,7 +100,7 @@
       </div>
 
     <div id="parallax6">
-      <h2 class="main-h2 text-center">WORK</h2>
+      <h2 class="main-h2 text-center">CURRENT PROJECTS</h2>
         <div id="projects-holder" class="card-holder center row"></div>
     </div>
 

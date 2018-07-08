@@ -67,8 +67,8 @@ const jobCards = (jobsArray) => {
     strang4 +=  `<div class="panel-body">`;
     strang4 +=   `<div class="text-center">`;
     strang4 +=    `<img class="experience-logos" src="${job.logo}">`;
-    strang4 +=    `<h3 class="experience-company">${job.company}</h3>`;
-    strang4 +=    `<h4>${job.dates}</h4>`;
+    strang4 +=    `<h4 class="experience-company">${job.company}</h4>`;
+    strang4 +=    `<h5>${job.dates}</h5>`;
     strang4 +=   `</div>`;
     strang4 +=   `<ul>`;
     strang4 +=    `<li>${job.li1}</li>`;

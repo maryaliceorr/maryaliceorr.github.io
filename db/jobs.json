@@ -5,52 +5,52 @@
     "logo": "./images/logos/onecountry.png",
     "li1": "In charge of product monetization of all digital entities",
     "li2": "Manages digital proposals and strategic partnerships for increase ROI",
-    "li3": "Audits site SEO, site performance and front-end web development for revenue optimization",
+    "li3": "Audits site SEO, site performance and front-end web development",
     "dates": "February 2018 - Current"
     },
   "job02":{
     "title": "Ad Ops Director",
     "company":"Journal Communications",
     "logo": "./images/logos/journalcommunications.png",
-    "li1": "Project managed three ad server implementations/migrations and trained employees in ad trafficking",
-    "li2": "Optimized and managed all digital remnant inventory revenue and bid strategies including 100% viewability, ATF/BTF, programmatic RTB, bid pools and waterfalls",
-    "li3": "Mapped ad QA flowcharts, SOP documentation and ad unit placements",
+    "li1": "Project managed three ad server implementations/migrations",
+    "li2": "Optimized digital bid strategies for programmatic, RTB networks",
+    "li3": "Mapped ad QA flowcharts and SOP documentation",
     "dates": "October 2016 - January 2018"
     },
   "job03":{
     "title": "Marketing Director",
     "company":"Journal Communications",
     "logo": "./images/logos/journalcommunications.png",
-    "li1": "Tripled remnant digital advertising revenue within the first 6 months of employment",
-    "li2": "Oversaw marketing plans, campaigns, budgets and best tactics for conversion",
-    "li3": "Utilized SEO, SEM, content linkage and promotion, e-mail blasts, re-marketing, press releases, A/B significance testing, ROI calculations and data seasonality to grow traffic and engagement",
+    "li1": "Tripled remnant digital advertising revenue within the first 6 months",
+    "li2": "Oversaw marketing plans, budgets and best tactics for conversion",
+    "li3": "Utilized SEO and SEM to grow traffic and engagement",
     "dates": "July 2015 - August 2016"
     },
   "job04":{
     "title": "Manager of Sales and Marketing Support and Operations",
     "company":"Iron Solutions",
     "logo": "./images/logos/ironsolutions.png",
-    "li1": "Sales team management via process improvements, functionality, and implementation",
-    "li2": "Oversaw pipeline management, forecasting, sales analytics, SEO, traffic building, inventory management and marketing budgets",
-    "li3": "Strategized marketing plans and created marketing collateral including media kits, logos, and banners for trade show presentations",
+    "li1": "Sales team management via process improvements and implementation",
+    "li2": "Oversaw pipeline management, forecasting, sales analytics and traffic building",
+    "li3": "Strategized marketing plans and created marketing collateral",
     "dates": "October 2014 - June 2015"
     },
   "job05":{
     "title": "Owner",
     "company":"MAO Consulting",
     "logo": "./images/logos/consultlogo.png",
-    "li1": "Provides expertise on SEM marketing campaigns",
-    "li2": "Optimizes digital advertising strategies for revenue generation",
-    "li3": "Builds websites for clients with strong UI focus",
+    "li1": "Provides expertise on SEM marketing campaigns and digital strategy",
+    "li2": "Optimizes digital advertising structures and layouts for revenue generation",
+    "li3": "Web development, site creation and front-end website design ",
     "dates": "July 2015 - Current"
     },
   "job06":{
     "title": "Owner",
     "company":"MA Orr Photography",
     "logo": "./images/logos/photologo.png",
-    "li1": "Specializes in landscapes, portraiture, creative design and special event photography",
-    "li2": "Creates advertisement specialty prints for recitals and showcases",
-    "li3": "Photographs candids and headshots for writers, musicians, offices and special events",
+    "li1": "Specializes in landscapes, portraiture and fine art photography",
+    "li2": "Creates advertisement specialty prints or posters for recitals and showcases",
+    "li3": "Photographs candids and headshots for offices and special occasions",
     "dates": "November 2010 - Current"
     }
 }
