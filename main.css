@@ -1,6 +1,7 @@
 body,html {
   color: white;
   height: 100%;
+
 }
 
 .container {
@@ -12,12 +13,40 @@ body,html {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 36px;
   font-family: 'Arimo', sans-serif;
   text-transform: uppercase;
   color: white;
-  padding-top: 20px;
+  padding-top:40px;
+  padding-bottom: 20px;
   margin-top: 0px;
+}
+.panel {
+  background-color: transparent;
+}
+
+.panel-heading {
+  background-color: #34373d;
+  height: 3%;
+
+}
+
+.panel-footer {
+  background-color: white;
+  color: #34373d;
+  height: 3%;
+}
+
+.panel-body {
+  background-color: #f2f2f2;
+  color: #34373d;
+  height: 90%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* NAVBAR */
@@ -60,6 +89,24 @@ h2 {
 
 #parallax3 {
   /* The image used */
+  background-image: url("./images/backgrounds/parallax5.jpg");
+
+  /* Full height */
+
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#parallax4 {
+  background-color: whitesmoke;
+}
+
+#parallax5 {
+  /* The image used */
   background-image: url("./images/backgrounds/parallax3.jpg");
 
   /* Full height */
@@ -72,6 +119,22 @@ h2 {
   background-size: cover;
 }
 
+#parallax6 {
+  background-color: #f77402;
+}
+
+#parallax7 {
+  /* The image used */
+  /* background-color: #f77402; */
+  background-image: url("./images/backgrounds/parallax7.jpg");
+  /* Full height */
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 /* HOMEPAGE */
 .homepage-container {
@@ -112,18 +175,29 @@ hr {
 }
 
 .badges {
-  height: 80px;
-  margin: 0 10px;
+ height: 30px;
+}
+
+.badge-container {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: center;
+}
+
+.badge-space {
+  margin: 20px 10px;
 }
 
 .experience-logos {
   max-height: 35px;
   max-width: 100px;
-  margin: 10px;
+  margin: 5px;
 }
 
 .job-card {
   background-color: transparent;
+  width: 350px;
+
 }
 
 .job-card .panel-heading {
@@ -132,7 +206,8 @@ hr {
 
 .job-card .panel-heading h3 {
   color: white;
-  vertical-align: middle;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 .job-card h3, h4 {
@@ -143,58 +218,114 @@ hr {
   text-align: left;
 }
 
+.job-row {
+  height: 360px;
+}
 
+.tech-heading {
+  color: #34373d;
+}
 
 /* CURRENT PROJECTS */
 
-.project-badges {
-  height: 30px;
-  margin: 5px;
+#projects-holder {
+  margin: 20px;
 }
 
-.project-cards {
-  margin: 10px;
-  background-color: transparent;
-  width: 80%;
-}
-
-.project-cards .panel-body {
-  height: 760px;
-}
-
-.project-cards h2 {
-  font-size: 24px;
-  font-family: 'Arimo', sans-serif;
-  text-transform: uppercase;
-  color: white;
-}
-
-.project-cards h4 {
-  font-family: 'Arimo', sans-serif;
-  text-transform: uppercase;
-  color: #34373d;
-}
-
-.panel-heading {
-  background-color: #34373d;
-  height: 3%;
-
-}
-
-.panel-footer {
-  background-color: white;
-  color: #34373d;
-  height: 3%;
-}
-
-.panel-body {
-  background-color: #f2f2f2;
-  color: #34373d;
-  height: 100%;
-  width: 100%;
+.project-footer {
+  height: 150px;
 }
 
 .project-image {
-  max-height: 500px;
-  margin: 20px;
+  height: 250px;
 }
+
+.project-space {
+  padding-bottom: 10px;
+}
+
+.code-btn {
+  background-color: #34373d;
+  color: white;
+}
+
+.site-btn {
+  background-color: #007A9F;
+  color: white;
+}
+
+.project-badge-holder {
+  display: flex;
+  flex-flow: row-wrap;
+  justify-content: center;
+}
+
+.project-badges {
+  height: 25px;
+  margin: 5px;
+}
+
+.project-button-group a {
+  margin: 10px 20px;
+}
+
+.project-cards {
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.project-body {
+  min-height: 450px;
+}
+
+.project-title {
+  font-size: 20px;
+}
+
+/* PERSONAL BRAND */
+
+.consult-column {
+  background-color: #fffb7f;
+  margin: 20px;
+  }
+
+  .photo-column {
+  background-color: black;
+    margin: 20px;
+  }
+
+  .consult-logo {
+  max-height: 230px;
+  max-width: 375px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  }
+
+  .photo-logo {
+   max-height: 250px;
+   max-width: 375px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  /* FOOTER */
+
+  footer {
+    background-color: #007A9F;
+    height: 100px;
+    margin-bottom: 0;
+  }
+
+  .footer-logo {
+    height: 75px;
+  }
+
+  /* BLOGS */
+
+  .blog-date {
+    color: white;
+  }
+
+  .blog-heading {
+    padding-top: 100px;
+  }

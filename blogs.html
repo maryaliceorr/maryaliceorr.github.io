@@ -10,23 +10,48 @@
     <title>Mary Alice Orr Blogs</title>
   </head>
   <body>
-    <!-- NAVBAR -->
-    <nav class="navbar navbar-default navbar-fixed-top bar">
-      <li class="active"><a class="nav-link js-scroll-trigger active" href="index.html#parallax1">HOME</a></li>
-      <li><a class="nav-link js-scroll-trigger active" href="index.html#parallax2">BIO</a></li>
-      <li><a class="nav-link js-scroll-trigger active" href="index.html#parallax3">EXPERIENCE</a></li>
-      <li><a class="nav-link js-scroll-trigger active" href="index.html#parallax6">WORK</a></li>
-      <li><a class="nav-link js-scroll-trigger active" href="blogs.html">BLOGS<span class="sr-only">(current)</span></a></li>
-      <ul class="nav navbar-nav navbar-right">
-        <li><img class="nav-nameplate navbar-right" src="./images/logos/nameplate.png"></li>
-      </ul>
-    </nav>
+    <!-- NAVBAR ! -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <img class="nav-nameplate" src="./images/logos/nameplate.png">
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class ="nav-categories" href="index.html#parallax1">HOME <span class="sr-only">(current)</span></a></li>
+          <li><a class ="nav-categories" href="index.html#parallax2">BIO</a></li>
+          <li><a class ="nav-categories" href="index.html#parallax3">EXPERIENCE</a></li>
+          <li><a class ="nav-categories" href="index.html#parallax6">CURRENT PROJECTS</a></li>
+          <li><a class ="nav-categories" href="blogs.html">BLOGS</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
 
     <div id="parallax7">
-      <h2 class="main-h2 text-center">BLOGS</h2>
-      <div id="blogs-holder" class="row col-sm-10 col-sm-offset-1">
+      <h2 class="main-h2 blog-heading text-center">BLOGS</h2>
+      <div class="row">
+        <div id="blogs-holder" class="row col-sm-10 col-sm-offset-1"></div>
+      </div>
     </div>
 
+    <footer>
+        <div class="row text-center">
+          <a href="https://www.linkedin.com/in/mary-alice-orr-29029a29/"><img class="footer-logo" src="./images/logos/linkedin.png"></a>
+          <a href="https://github.com/maryaliceorr"><img class="footer-logo" src="./images/logos/github.png"></a>
+        </div>
+        <p class="text-center">© Mary Alice Orr Copyright 2018</p>
+      </footer>
 
     <!-- SCRIPT TAGS -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
