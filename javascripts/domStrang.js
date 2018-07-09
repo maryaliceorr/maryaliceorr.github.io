@@ -19,8 +19,10 @@ const blogCards = (blogArray) => {
 const badgeCard = (badgeArray) => {
   let strang3 = '';
   badgeArray.forEach((badge) => {
-    strang3 += `<div class="col-sm-1 center">`;
-    strang3 +=  `<img class="badges center" src="${badge.badgeImg}"/>`;
+    strang3 += `<div class="badge-container col-sm-1 col-xs-4">`;
+    strang3 +=  `<div class="badge-space">`;
+    strang3 +=   `<img class="badges center-block" src="${badge.badgeImg}"/>`;
+    strang3 +=  `</div>`;
     strang3 += `</div>`;
   });
   writeToDom('#badge-holder', strang3);
@@ -29,25 +31,27 @@ const badgeCard = (badgeArray) => {
 const projectCards = (projectArray) => {
   let strang2 = '';
   projectArray.forEach((project) => {
-    strang2 += `<div class="panel project-cards">`;
+    strang2 += `<div class="panel project-cards col-md-4">`;
     strang2 +=  `<div class="panel-heading">`;
-    strang2 +=    `<h2 class="panel-title text-center">${project.title}</h2>`;
+    strang2 +=    `<h2 class="panel-title project-title text-center">${project.title}</h2>`;
     strang2 +=  `</div>`;
-    strang2 +=  `<div class="panel-body">`;
+    strang2 +=  `<div class="panel-body project-body">`;
     strang2 +=   `<p class="project-card-descrip">${project.description}</p>`;
     strang2 +=   `<div class="text-center">`;
     strang2 +=    `<img class="project-image img-rounded text-center" src="${project.thumbnail}">`;
     strang2 +=   `</div>`;
     strang2 +=   `<div class="project-button-group center">`;
-    strang2 +=    `<a href="${project.github}" class="btn btn-lg code-btn">View Code</a>`;
-    strang2 +=    `<a href="${project.url}" class="btn btn-lg site-btn">View Site</a>`;
+    strang2 +=    `<a href="${project.github}" class="btn code-btn">View Code</a>`;
+    strang2 +=    `<a href="${project.url}" class="btn site-btn">View Site</a>`;
     strang2 +=   `</div>`;
     strang2 +=  `</div>`;
-    strang2 +=  `<div class="panel-footer">`;
+    strang2 +=  `<div class="panel-footer project-footer">`;
     strang2 +=    `<h4 class="text-center">Technologies Used</h4>`;
-    strang2 +=    `<div class="center">`;
+    strang2 +=    `<div class="text-center">`;
     project.badges.forEach((badge) => {
-      strang2 +=    `<img class="project-badges center" src="${badge.badgeImg}"/>`;
+
+      strang2 +=     `<img class="project-badges" src="${badge.badgeImg}"/>`;
+
     });
     strang2 +=    `</div>`;
     strang2 +=   `</div>`;
@@ -59,9 +63,12 @@ const projectCards = (projectArray) => {
 
 const jobCards = (jobsArray) => {
   let strang4 = '';
-  jobsArray.forEach((job) => {
-    strang4 += `<div class="panel job-card col-sm-4">`;
-    strang4 +=  `<div class="panel-heading">`;
+  jobsArray.forEach((job, index) => {
+    if (index % 3 === 0) {
+      strang4 += `<div class="row job-row">`;
+    }
+    strang4 += `<div class="panel job-card col-xs-1 col-sm-4 col-md-4">`;
+    strang4 +=  `<div class="panel-heading job-heading">`;
     strang4 +=   `<h3 class="panel-title">${job.title}</h3>`;
     strang4 +=  `</div>`;
     strang4 +=  `<div class="panel-body">`;
@@ -73,10 +80,13 @@ const jobCards = (jobsArray) => {
     strang4 +=   `<ul>`;
     strang4 +=    `<li>${job.li1}</li>`;
     strang4 +=    `<li>${job.li2}</li>`;
-    strang4 +=    `<li>${job.li3}</li>`;
+    strang4 +=    `<li class="overword">${job.li3}</li>`;
     strang4 +=   `</ul>`;
     strang4 +=  `</div>`;
     strang4 += `</div>`;
+    if (index % 3 === 2) {
+      strang4 += `</div>`;
+    }
   });
   writeToDom('#jobs-holder', strang4);
 };
