@@ -66,7 +66,7 @@ const jobCards = (jobsArray) => {
   jobsArray.forEach((job, index) => {
     strang4 += `<div class="panel job-card col-md-4">`;
     strang4 +=  `<div class="panel-heading job-heading">`;
-    strang4 +=   `<h3 class="panel-title">${job.title}</h3>`;
+    strang4 +=   `<h3 class="panel-title text-center">${job.title}</h3>`;
     strang4 +=  `</div>`;
     strang4 +=  `<div class="panel-body">`;
     strang4 +=   `<div class="text-center">`;

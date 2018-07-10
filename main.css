@@ -180,10 +180,13 @@ hr {
 
 .job-card {
   background-color: transparent;
-  width: 350px;
-
+  margin: 0px;
+  margin-bottom: 10px;
 }
 
+#jobs-holder {
+  margin: 50px;
+}
 .job-card .panel-heading {
   height: 70px;
 }
@@ -204,6 +207,10 @@ hr {
 
 .job-row {
   height: 360px;
+}
+
+.job-space {
+  padding-bottom: 20px;
 }
 
 .tech-heading {
@@ -263,7 +270,15 @@ hr {
 }
 
 .project-title {
-  font-size: 22px;
+  font-size: 18px;
+  padding-top: 7%;
+  padding-bottom: 15%;
+
+
+}
+
+.project-heading {
+  height: 75px;
 }
 
 /* PERSONAL BRAND */
