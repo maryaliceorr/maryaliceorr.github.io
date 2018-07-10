@@ -64,11 +64,14 @@ const projectCards = (projectArray) => {
 const jobCards = (jobsArray) => {
   let strang4 = '';
   jobsArray.forEach((job, index) => {
+    if (index % 3 === 0) {
+      strang4 += `<div class="row">`;
+    }
     strang4 += `<div class="panel job-card col-md-4">`;
     strang4 +=  `<div class="panel-heading job-heading">`;
     strang4 +=   `<h3 class="panel-title text-center">${job.title}</h3>`;
     strang4 +=  `</div>`;
-    strang4 +=  `<div class="panel-body">`;
+    strang4 +=  `<div class="job-body panel-body">`;
     strang4 +=   `<div class="text-center">`;
     strang4 +=    `<img class="experience-logos" src="${job.logo}">`;
     strang4 +=    `<h4 class="experience-company">${job.company}</h4>`;
@@ -81,6 +84,9 @@ const jobCards = (jobsArray) => {
     strang4 +=   `</ul>`;
     strang4 +=  `</div>`;
     strang4 += `</div>`;
+    if (index % 3 === 2) {
+      strang4 += `</div>`;
+    }
   });
   writeToDom('#jobs-holder', strang4);
 };
