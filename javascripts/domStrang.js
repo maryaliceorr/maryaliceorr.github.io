@@ -1,7 +1,7 @@
 const blogCards = (blogArray) => {
   let strang1 = '';
   blogArray.forEach((blog) => {
-    strang1 += `<div class="blog-card panel col-sm-12">`;
+    strang1 += `<div class="blog-card panel col-sm-12 col-xs-12">`;
     strang1 +=  `<div class="panel-heading">`;
     strang1 +=   `<h3 class="panel-title panel-left">${blog.title}</h3>`;
     strang1 +=   `<h4 class="blog-date panel-right">${blog.date}</h4>`;
@@ -32,7 +32,7 @@ const projectCards = (projectArray) => {
   let strang2 = '';
   projectArray.forEach((project) => {
     strang2 += `<div class="panel project-cards col-md-4">`;
-    strang2 +=  `<div class="panel-heading">`;
+    strang2 +=  `<div class="panel-heading project-heading">`;
     strang2 +=    `<h2 class="panel-title project-title text-center">${project.title}</h2>`;
     strang2 +=  `</div>`;
     strang2 +=  `<div class="panel-body project-body">`;
@@ -64,10 +64,7 @@ const projectCards = (projectArray) => {
 const jobCards = (jobsArray) => {
   let strang4 = '';
   jobsArray.forEach((job, index) => {
-    if (index % 3 === 0) {
-      strang4 += `<div class="row job-row">`;
-    }
-    strang4 += `<div class="panel job-card col-xs-1 col-sm-4 col-md-4">`;
+    strang4 += `<div class="panel job-card col-md-4">`;
     strang4 +=  `<div class="panel-heading job-heading">`;
     strang4 +=   `<h3 class="panel-title">${job.title}</h3>`;
     strang4 +=  `</div>`;
@@ -84,9 +81,6 @@ const jobCards = (jobsArray) => {
     strang4 +=   `</ul>`;
     strang4 +=  `</div>`;
     strang4 += `</div>`;
-    if (index % 3 === 2) {
-      strang4 += `</div>`;
-    }
   });
   writeToDom('#jobs-holder', strang4);
 };
