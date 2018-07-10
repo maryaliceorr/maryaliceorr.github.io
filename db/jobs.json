@@ -4,7 +4,7 @@
     "company":"One Country",
     "logo": "./images/logos/onecountry.png",
     "li1": "In charge of product monetization of all digital entities",
-    "li2": "Manages digital proposals and strategic partnerships for increase ROI",
+    "li2": "Manages digital proposals and strategic partnerships for ROI",
     "li3": "Audits site SEO, site performance and front-end web development",
     "dates": "February 2018 - Current"
     },
@@ -27,7 +27,7 @@
     "dates": "July 2015 - August 2016"
     },
   "job04":{
-    "title": "Manager of Sales and Marketing Support and Operations",
+    "title": "Manager of Sales and Marketing Support",
     "company":"Iron Solutions",
     "logo": "./images/logos/ironsolutions.png",
     "li1": "Sales team management via process improvements and implementation",

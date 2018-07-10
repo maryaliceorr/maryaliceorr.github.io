@@ -206,10 +206,15 @@ hr {
 }
 
 .job-row {
-  height: 360px;
+  height: 325px;
+}
+
+.job-body {
+  height: 350px;
 }
 
 .job-space {
+
   padding-bottom: 20px;
 }
 
@@ -346,7 +351,7 @@ hr {
   background-image: url("./images/backgrounds/parallax5.jpg");
   background-attachment: scroll;
   background-position: center;
-  background-repeat: repeat;
+  background-repeat: inherit;
   background-size: cover;
 }
 
