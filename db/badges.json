@@ -42,6 +42,35 @@
 	"badge11": {
 		"badgeName": "Sass",
 		"badgeImg": "./images/technologyBadges/Sass.png"
-	}
+  },
+  "badge12": {
+		"badgeName": "React JS",
+    "badgeImg": "./images/technologyBadges/ReactJS.png"
+  },
+  "badge13": {
+		"badgeName": "C#",
+    "badgeImg": "./images/technologyBadges/CSharp.png"
+  },
+  "badge14": {
+		"badgeName": ".Net",
+    "badgeImg": "./images/technologyBadges/NET.jpg"
+  },
+  "badge15": {
+		"badgeName": "SQL",
+    "badgeImg": "./images/technologyBadges/SQL.png"
+  },
+  "badge16": {
+		"badgeName": "Visual Studio Code",
+    "badgeImg": "./images/technologyBadges/VisualStudioCode.png"
+  },
+  "badge17": {
+		"badgeName": "Visual Studio",
+    "badgeImg": "./images/technologyBadges/VisualStudio.png"
+  },
+  "badge18": {
+		"badgeName": "Git",
+    "badgeImg": "./images/technologyBadges/Git.png"
+  }
+
 
 }

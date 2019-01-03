@@ -19,8 +19,8 @@ const blogCards = (blogArray) => {
 const badgeCard = (badgeArray) => {
   let strang3 = '';
   badgeArray.forEach((badge) => {
-    strang3 += `<div class="badge-container col-sm-1 col-xs-4">`;
-    strang3 +=  `<div class="badge-space">`;
+    strang3 += `<div class="badge-container">`;
+    strang3 +=  `<div class="col-md-1">`;
     strang3 +=   `<img class="badges center-block" src="${badge.badgeImg}"/>`;
     strang3 +=  `</div>`;
     strang3 += `</div>`;
