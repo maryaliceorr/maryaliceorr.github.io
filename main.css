@@ -87,7 +87,7 @@ h2 {
 }
 
 #parallax3 {
-  background-image: url("./images/backgrounds/parallax5.jpg");
+  background-image: url("./images/backgrounds/parallax5.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -210,7 +210,7 @@ hr {
 }
 
 .job-body {
-  height: 350px;
+height: 375px;
 }
 
 .job-space {
@@ -289,7 +289,7 @@ hr {
 /* PERSONAL BRAND */
 
 .consult-column {
-  background-color: #fffb7f;
+  background-color: #fcf9b2;
   margin: 20px;
   }
 
@@ -299,10 +299,9 @@ hr {
   }
 
   .consult-logo {
-  max-height: 230px;
-  max-width: 375px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  width: 300px;
+  margin-top: 20%;
+  margin-bottom: 20%;
   }
 
   .photo-logo {
@@ -348,7 +347,7 @@ hr {
 }
 
 #parallax3 {
-  background-image: url("./images/backgrounds/parallax5.jpg");
+  background-image: url("./images/backgrounds/parallax5.png");
   background-attachment: scroll;
   background-position: center;
   background-repeat: inherit;
