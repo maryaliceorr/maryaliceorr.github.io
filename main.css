@@ -214,7 +214,7 @@ hr {
 }
 
 .job-body {
-height: 450px;
+height: 480px;
 }
 
 .job-space {
@@ -304,6 +304,7 @@ height: 450px;
 
   .consult-logo {
   max-width: 300px;
+  max-height: 150px;
   margin-top: 20%;
   margin-bottom: 20%;
   }
