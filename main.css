@@ -4,6 +4,10 @@ body,html {
 
 }
 
+.main-h2 {
+  padding-top: 70px;
+}
+
 .container {
   width: 85%;
 }
@@ -87,7 +91,7 @@ h2 {
 }
 
 #parallax3 {
-  background-image: url("./images/backgrounds/parallax5.png");
+  background-image: url("./images/backgrounds/parallax5.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -155,11 +159,11 @@ hr {
 }
 
 .consult-logo {
-  width: 40%;
+  width: 80%;
 }
 
 .badges {
- height: 30px;
+ height: 35px;
 }
 
 .badge-container {
@@ -169,7 +173,7 @@ hr {
 }
 
 .badge-space {
-  margin: 20px 10px;
+  margin: 20px 5px;
 }
 
 .experience-logos {
@@ -210,7 +214,7 @@ hr {
 }
 
 .job-body {
-height: 375px;
+height: 450px;
 }
 
 .job-space {
@@ -299,7 +303,7 @@ height: 375px;
   }
 
   .consult-logo {
-  width: 300px;
+  max-width: 300px;
   margin-top: 20%;
   margin-bottom: 20%;
   }
