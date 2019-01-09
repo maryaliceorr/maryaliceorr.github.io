@@ -70,7 +70,10 @@
   "badge18": {
 		"badgeName": "Git",
     "badgeImg": "./images/technologyBadges/Git.png"
+  },
+  "badge19": {
+		"badgeName": "Webpack",
+    "badgeImg": "./images/technologyBadges/Webpack.png"
   }
-
 
 }
