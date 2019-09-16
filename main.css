@@ -239,7 +239,7 @@ height: 480px;
 }
 
 .project-image {
-  max-height: 250px;
+  max-height: 275px;
   max-width: 275px;
 
 }
@@ -312,6 +312,10 @@ height: 480px;
    max-width: 375px;
     margin-top: 5%;
     margin-bottom: 5%;
+  }
+
+  .btn:hover {
+    color: lightgray;
   }
 
   /* FOOTER */

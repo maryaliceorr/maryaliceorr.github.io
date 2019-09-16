@@ -2,15 +2,15 @@
   "project01":{
     "title": "America Exposure",
     "thumbnail": "./images/projects/project1.png",
-    "description": "This project allows users to search for scenic outdoor landscape photography spots in the United States via a \"choose your own adventure\" experience. The user can save the locations to either a bucket list or an upcoming trip.",
+    "description": "This project allows users to search for scenic outdoor landscape photography spots in the U.S. via a \"choose your own adventure\" experience. The user can save the locations to either a bucket list or an upcoming trip.",
     "available": true,
-    "url": "https:www.americaexposure.com",
+    "url": "https://www.americaexposure.com",
     "github": "https://github.com/maryaliceorr/america-exposure"
   },
   "project02":{
     "title": "Movie Maker",
     "thumbnail": "./images/projects/project2.png",
-    "description": "This project depicts a movie maker that shows whether the film you are trying to make is on budget based on the actors, special effects, animals and locations chosen.",
+    "description": "This project depicts a movie maker that shows whether the film you are trying to make is on budget via a budget tracker and status bar based on the actors, special effects, animals and locations chosen.",
     "available": true,
     "url": "https://XXX.firebaseapp.com",
     "github": "https://github.com/maryaliceorr/movie-maker"
