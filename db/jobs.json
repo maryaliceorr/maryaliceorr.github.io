@@ -1,5 +1,14 @@
 {
   "job01":{
+  "title": "AVP, Business Analyst",
+  "company":"Alliance Bernstein",
+  "logo": "./images/logos/AB.jpg",
+  "li1": "Manages web development sprint workloads and business analysis for EMEA(Europe, Middle East and Africa) work on alliancebernstein.com",
+  "li2": "Led a project migration for Agile process and reporting visibility improvements using Jira",
+  "li3": "Created a Jira SOP and a training guide for all Project Managers, Business Analysts, UX Designers, Front-End and Back-End Developers integrating Agile methodologies and Scrum best practices to help improve productivity and efficiency",
+  "dates": "March 2019 - Current"
+  },
+  "job02":{
     "title": "Director of Advertising Operations",
     "company":"One Country",
     "logo": "./images/logos/onecountry.png",
@@ -8,7 +17,7 @@
     "li3": "Monetizes onecountry.com, a country music editorial website with the use of standard display ads, premium ads (IAB rising stars, mobile adhesions, screenshifts, etc), native ads, video ads (pre-roll and video content) and content ads",
     "dates": "February 2018 - Current"
     },
-  "job02":{
+  "job03":{
     "title": "Digital Ad Ops Director",
     "company":"Journal Communications",
     "logo": "./images/logos/journalcommunications.png",
@@ -17,7 +26,7 @@
     "li3": "Created products and managed all digital ads for Livability.com, FarmFlavor.com and TNVacation.com product lines",
     "dates": "October 2016 - January 2018"
     },
-  "job03":{
+  "job04":{
     "title": "Marketing Director",
     "company":"Journal Communications",
     "logo": "./images/logos/journalcommunications.png",
@@ -26,7 +35,7 @@
     "li3": "Directed and evaluated strategic partnerships/shared-revenue projects to increase revenue in new creative ways",
     "dates": "July 2015 - August 2016"
     },
-  "job04":{
+  "job05":{
     "title": "Manager of Sales and Marketing Support",
     "company":"Iron Solutions",
     "logo": "./images/logos/ironsolutions.png",
@@ -35,7 +44,7 @@
     "li3": "Oversaw pipeline management, forecasting, sales analytics, SEM, traffic building, inventory management and marketing budgets as well as created all quota, commission and incentive scales for all sales team members",
     "dates": "October 2014 - June 2015"
     },
-  "job05":{
+  "job06":{
     "title": "Owner & Consultant",
     "company":"CalibratORR",
     "logo": "./images/logos/consultlogo.png",
@@ -44,7 +53,7 @@
     "li3": "Builds marketing plans and provides training for companies to manage a digital advertising strategy including billing, insertion order management, campaign optimization, inventory forecasting, revenue tips and ad server integration",
     "dates": "July 2015 - Current"
     },
-  "job06":{
+  "job07":{
     "title": "Owner & Photographer",
     "company":"MA Orr Photography",
     "logo": "./images/logos/photologo.png",
